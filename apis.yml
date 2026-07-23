@@ -1,24 +1,70 @@
 aid: affirmed
-name: Affirmed
-description: 'Affirmed is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affirmed.png
+name: Affirmed Networks
+description: 'Affirmed Networks is a mobile networking company founded in 2010 (Andover, Massachusetts)
+  that pioneered fully virtualized, cloud-native mobile core software for service providers. Its
+  portfolio spanned a Virtualized Evolved Packet Core (vEPC), the UnityCloud 5G Core, Private Network
+  Service, Network Slicing, and service-automation/analytics tooling, deployed by 100+ mobile operators
+  including AT&T, Orange, Vodafone, and Telus. The company was acquired by Microsoft in March 2020 and
+  folded into the Azure for Operators initiative; the affirmednetworks.com site now operates as a Microsoft
+  company marketing presence with no independent public developer portal or API. Surfaced in the API
+  Evangelist network as a portfolio company of Matrix Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/affirmed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - matrix-partners
+x-investors:
+- matrix-partners
+- centerview-capital
+- qualcomm-ventures
+- eastward-capital-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: microsoft
+x-acquired-date: '2020-03'
+x-successor-product: Azure for Operators
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Infrastructure
+- Telecommunications
+- 5G
+- Mobile Core
+- Cloud Native
+- Network Functions Virtualization
+- Acquired
+common:
+- type: DomainSecurity
+  url: security/affirmed-domain-security.yml
+- type: Website
+  url: https://www.affirmednetworks.com/
+- type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
