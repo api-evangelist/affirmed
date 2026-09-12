@@ -1,0 +1,14 @@
+{
+  "repo": "affirmed",
+  "feeds": [
+    {
+      "source": "https://www.microsoft.com/en-us/legal/terms-of-use",
+      "feed_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-06T19:17:18Z"
+}
